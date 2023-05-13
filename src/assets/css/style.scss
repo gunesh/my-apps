@@ -9,4 +9,16 @@ body {
     margin: 0 auto;
     width: 97%;
   }
+  .app-menu {
+    li{
+      color: #000 !important;
+    }
+    li.active {
+      border-bottom: 2px solid #000;
+    }
+
+    li:hover {
+      border-bottom: 2px solid #000;
+    }
+  }
 }
