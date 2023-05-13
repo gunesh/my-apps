@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+body {
+   // font-family: "Comfortaa", cursive;
+   /* background-color: seagreen; */
+   /* background-color: #e3ecd4;   */
+   color: #000 !important;
+   font-weight: 400;
+}
+
+main {
+   min-height: 55vh;
+}
+
+.header-banner {
+   background-image: url("ShipHeader.jpg")
+}
+
+// .app-home{
+//    background-image:url("ShipHeader.jpg")
+// } 
+.my-card {
+   margin-bottom: 10px;
+
+   .card-title {
+      text-align: center;
+      font-weight: bolder;
+      margin-bottom: 0rem;
+      padding: 15px;
+      cursor: pointer;
+   }
+
+   .card-text {
+      text-align: center;
+      margin-bottom: 0rem;
+   }
+
+}
+
+.logo {
+   font-size: 22px;
+   font-weight: bolder;
+   width: 301px;
+
+   img {
+      width: 301px;
+      height: 160px;
+   }
+}
+
+/* .app-menu {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.app-menu a{
+  color: #fff!important;
+}
+*/
+
+.app-menu {
+   li.active {
+      border-bottom: 2px solid #000;
+   }
+
+   li:hover {
+      /* background-color: #ccc; */
+      border-bottom: 2px solid #000;
+   }
+}
+
+.product-scroll {
+   height: inherit;
+   overflow-y: scroll;
+   // border: 1px solid #000;
+   // padding: 25px;
+}
+
+.extra-small-icon {
+
+   li {
+      display: inline-block;
+      margin: 0 10px 0px 10px;
+
+      a {
+         font-size: 25px;
+         width: 30px;
+         height: 30px;
+         line-height: 30px;
+
+         svg {
+            height: 30px;
+            fill: #000;
+         }
+
+         svg:hover {
+            fill: #708e6c;
+         }
+
+      }
+   }
+}
+
+.site-app {
+   margin: 0 auto;
+   width: 97%;
+}
+
+nav {
+   z-index: 99;
+}
+
+.breadcrumb {
+   margin-bottom: 0px;
+}
+
+.mb-4 {
+   margin-bottom: 0.5rem !important;
+}
+
+.mt-0-20 {
+   margin-top: -20px !important;
+}
+
+.product-list {
+   margin-top: 10px;
+}
+
+.app-breadcrums-link {
+   color: #000;
+}
+
+.app-breadcrums-link:hover {
+   color: #000;
+}
+
+.app-link {
+   color: #6c757d;
+}
+
+.app-link:hover {
+   color: #fff;
+}
+
+.card-body:hover,
+.card-mouse:hover {
+   background-color: #000;
+   color: #fff !important;
+}
+
+.card-title {
+   color: #000;
+   cursor: pointer;
+}
+
+.card-title:hover {
+   background-color: #000;
+   color: #fff !important;
+   cursor: pointer;
+}
+
+.card-body .card-text:hover,
+.card-mouse .card-text:hover {
+   background-color: #000;
+   color: #fff !important;
+}
+
+// ul.nav li:hover {
+//    /* background-color: #708e6c; */
+// }
+
+/* .vik-app:hover {
+  background-color: #000;
+  opacity: 0.4;
+} */
+
+/* 
+#000
+#d3dcd2
+#708e6c
+#85a483
+#94b094
+#94aa8c
+#4c7846
+#5c8254
+#476343 
+*/
+.card-img-top{
+   cursor: pointer;
+}
+
+.card-title,
+.card-text {
+   text-transform: uppercase;
+}
+
+.cms-page {
+   border-bottom: 5px solid #000;
+   width: max-content;
+}
+
+.border-bottom {
+   border-bottom: 1px solid #000 !important;
+}
+
+.border-top {
+   border-top: 1px solid #000 !important;
+}
+
+.btn-primary {
+   background-color: #000 !important;
+   border: 1px solid #708e6c;
+}
+
+.carousel-caption h3,
+p {
+   color: #000 !important;
+   font-weight: bold;
+}
+
+.link-secondary {
+   color: #000 !important;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.product-category {
+   .card {
+      border: 1px solid #708e6c;
+
+      .card-body {
+         padding: 0;
+         border-top: 1px solid #708e6c;
+
+         :hover {
+            color: #fff !important;
+            font-weight: bold;
+         }
+
+         .card-text {
+            padding: 15px 0px 15px 5px;
+            font-weight: bold;
+            text-align: center;
+         }
+      }
+   }
+}
+
+
+
+.product-info {
+   font-weight: bold;
+   ;
+}
+
+
+
+.my-card .card {
+   border: 1px solid #000;
+
+
+
+   // .card-body {
+     
+   // }
+}
+
+.products {
+   /* height: 330px; */
+   overflow: hidden;
+   max-height: 430px;
+   min-height: 430px;
+   height: 430px !important;
+   margin-top: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+   height: 100px;
+   width: 100px;
+   outline: black;
+   background-size: 100%, 100%;
+   //   border-radius: 50%;
+   //   border: 1px solid black;
+   background-image: none;
+}
+
+.carousel-control-next-icon:after {
+   content: '>';
+   font-size: 55px;
+   color: #000;
+}
+
+.carousel-control-prev-icon:after {
+   content: '<';
+   font-size: 55px;
+   color: #000;
+}
+
+.product-desc {
+   p {
+      font-size: 18px;
+      font-weight: bold;
+   }
+}
+
+.home-btn {
+   display: flex;
+   margin-top: 20px;
+   margin-bottom: 18px;
+   z-index: 99;
+
+   .link {
+      z-index: 99;
+
+      .btn-action {
+         z-index: 99;
+      }
+   }
+}
+
+.about-info {
+   border: 1px solid #ccc;
+   padding: 30px;
+}
+
+.app-breadcrums-link,
+.breadcrumb-item+.breadcrumb-item {
+   padding-left: var(--bs-breadcrumb-item-padding-x);
+   font-size: 17px;
+   font-weight: bold;
+}
+
+.product-info {
+   font-weight: bold;
+   font-size: 20px;
+   text-decoration: underline;
+}
+
+.modal-title {
+   font-size: 35px;
+   font-weight: bold;
+}
+
+.carousel-indicators {
+   position: relative !important;
+   z-index: 99;
+}
+
+.carousel-caption {
+   z-index: 99;
+}
+
+.copyright {
+   color: #fff !important;
+   font-weight: normal;
+}
+
+.contact-us-dic {
+   border: 1px solid #435e3f;
+   padding: 20px;
+   background-color: #435e3f;
+   // width: 75%;
+   // float: right;
+
+   label {
+      color: #fff
+   }
+
+   //    .sub-btn{
+   //       background-color: #fff!important;
+   //       color: #435e3f!important;
+   //       font-weight: bold!important;
+   //   }
+
+   .contact-us-button {
+      background-color: #fff !important;
+      color: #435e3f !important;
+      ;
+      font-weight: bold !important;
+      opacity: 10;
+      border: 1px solid #435e3f !important;
+      ;
+      ;
+   }
+
+}
+
+.product-heading {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+
+.app-button {
+   background-color: #435e3f !important;
+   color: #fff !important;
+}
+
+.img-popup {
+   border: 1px solid #dee2e6;
+}
+
+.custom-body{
+   padding: 0 !important;
+}
