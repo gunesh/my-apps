@@ -42,20 +42,20 @@ const Footer = () => {
                   <h4>Connect with US</h4>
                   <ul className="list-unstyled">
                     <li>
-                      <i className="fa fa-phone"></i> &nbsp; +91 9021751269
+                      <i className="fa fa-phone"></i> &nbsp; +91 90217xxxxx
                     </li>
                     <li>
                       <i className="fa fa-envelope-o"></i> &nbsp;
-                      connect@greencontie.com
+                      connect@grexxxxx.com
                     </li>
                     <li>
                       <a
                         className="whatsapp"
                         rel="noreferrer"
-                        href="https://wa.me/919021751269?text=Hi Mogli"
+                        href="https://wa.me/919021xxxxx?text=Hi Mogli"
                         target="_blank"
                       >
-                        <i className="fa fa-whatsapp"></i> &nbsp; 9021751269
+                        <i className="fa fa-whatsapp"></i> &nbsp; 90217xxxxx
                       </a>
                     </li>
                   </ul>
@@ -93,7 +93,7 @@ const Footer = () => {
                 <ul className="social-network social-circle">
                   <li>
                     <a
-                      href="https://www.facebook.com/greencontie"
+                      href="https://www.facebook.com/greenxxxxx"
                       target="_blank"
                       rel="noreferrer"
                       className="icoFacebook"
@@ -104,7 +104,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/company/greencontie/"
+                      href="https://www.linkedin.com/company/greenxxxxx/"
                       target="_blank"
                       rel="noreferrer"
                       className="icoLinkedin"
@@ -115,7 +115,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://twitter.com/greencontie"
+                      href="https://twitter.com/greencxxxxx"
                       target="_blank"
                       rel="noreferrer"
                       className="icoTwitter"
@@ -130,7 +130,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-12 copy">
                 <p className="text-center copyright">
-                  &copy; Copyright {year} - Greencontie. All rights reserved.
+                  &copy; Copyright {year} - MyApp. All rights reserved.
                 </p>
               </div>
             </div>
