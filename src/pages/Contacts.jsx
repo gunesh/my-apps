@@ -1,22 +1,21 @@
-import React from "react";
-import { Formik, Form, Field, ErrorMessage } from "formik";
-import * as Yup from "yup";
-
-import Meta from "../components/Meta";
+import React from 'react';
+import { Formik, Form, Field, ErrorMessage } from 'formik';
+import * as Yup from 'yup';
+import Meta from '../components/Meta';
 
 const LoginSchema = Yup.object().shape({
   name: Yup.string()
-    .min(4, "Password must be 4 characters at minimum")
-    .required("Name is required"),
+    .min(4, 'Password must be 4 characters at minimum')
+    .required('Name is required'),
   email: Yup.string()
-    .email("Invalid email address format")
-    .required("Email is required"),
+    .email('Invalid email address format')
+    .required('Email is required'),
   phone: Yup.string()
-    .min(4, "Password must be 4 characters at minimum")
-    .required("Phone number is required"),
+    .min(4, 'Password must be 4 characters at minimum')
+    .required('Phone number is required'),
   query: Yup.string()
-    .min(4, "Query must be 4 characters at minimum")
-    .required("Query is required"),
+    .min(4, 'Query must be 4 characters at minimum')
+    .required('Query is required'),
 });
 
 function ContactForm() {
@@ -41,27 +40,27 @@ function ContactForm() {
       )}
 
       <Formik
-        initialValues={{ name: "", email: "", phone: "", query: "" }}
+        initialValues={{ name: '', email: '', phone: '', query: '' }}
         validationSchema={LoginSchema}
         onSubmit={(values, formProps) => {
           // console.log(formProps);
-          fetch("/api/contact.php", {
-            method: "POST",
+          fetch('/api/contact.php', {
+            method: 'POST',
             body: JSON.stringify({
               name: values.name,
               phone: values.phone,
               email: values.email,
               query: values.query,
-              type: "CONTACT",
+              type: 'CONTACT',
             }),
             headers: {
-              "Content-type": "application/json; charset=UTF-8",
+              'Content-type': 'application/json; charset=UTF-8',
             },
           });
           setStatus(true);
           resetMessage();
           handleReset(formProps.resetForm);
-          formProps.setFieldValue("query", "");
+          formProps.setFieldValue('query', '');
           // resetForm({ values: "" });
         }}
       >
@@ -80,8 +79,8 @@ function ContactForm() {
                     className={`mt-2 form-control
                             ${
                               formProps.touched.name && formProps.errors.name
-                                ? "is-invalid"
-                                : ""
+                                ? 'is-invalid'
+                                : ''
                             }`}
                   />
                   <ErrorMessage
@@ -101,8 +100,8 @@ function ContactForm() {
                     className={`mt-2 form-control
               ${
                 formProps.touched.email && formProps.errors.email
-                  ? "is-invalid"
-                  : ""
+                  ? 'is-invalid'
+                  : ''
               }`}
                   />
                   <ErrorMessage
@@ -123,8 +122,8 @@ function ContactForm() {
                     className={`mt-2 form-control
                             ${
                               formProps.touched.name && formProps.errors.name
-                                ? "is-invalid"
-                                : ""
+                                ? 'is-invalid'
+                                : ''
                             }`}
                   />
                   <ErrorMessage
@@ -147,8 +146,8 @@ function ContactForm() {
                     className={`mt-2 form-control
                             ${
                               formProps.touched.name && formProps.errors.name
-                                ? "is-invalid"
-                                : ""
+                                ? 'is-invalid'
+                                : ''
                             }`}
                   />
                   <ErrorMessage
@@ -183,7 +182,7 @@ function ContactForm() {
 
 const Contact = () => {
   // page content
-  const pageTitle = "Contact us";
+  const pageTitle = 'Contact us';
   // const { signIn,auth } = useAuth();
   // console.log(signIn);
   return (
