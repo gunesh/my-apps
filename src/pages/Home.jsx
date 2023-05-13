@@ -16,7 +16,7 @@ const Home = () => {
     <div className="home-page">
       <Meta title={pageTitle} />
      
-      </div>
+     
      
     </div>
   );
