@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter } from 'react-router-dom';
 import { AuthProvider } from './utility/app-context';
-import './style.scss';
+import './assets/css/style.scss';
 import App from './App';
 
 const rootElement = document.getElementById('root');
