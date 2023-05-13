@@ -207,10 +207,10 @@ const Contact = () => {
           <p></p>
           <p></p>
           <p>
-            <b>Phone:</b> +91 8208793082 , +91 9021751269
+            <b>Phone:</b> +91 82087xxxxx , +91 90217xxxxx
           </p>
           <p>
-            <b>Email:</b> connect@greencontie.com
+            <b>Email:</b> connect@greenxxxxx.com
           </p>
         </div>
         <div className="col-md-5">
