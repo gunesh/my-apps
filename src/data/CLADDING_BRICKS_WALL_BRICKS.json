@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "TAPER BRICKS",
+    "productid": "GCTW01",
+    "size": "9X3 INCH",
+    "per_100": "533 NOS",
+    "weight": "420 GM",
+    "thickness": "10 MM",
+    "color": "Natural Red",
+    "src": "./assets/img/CLADDING_BRICKSWALL_BRICKS/GCTW01.jpg",
+    "retail_price": "ret",
+    "wholesale_price": "whol",
+    "details": []
+  },
+  {
+    "id": 2,
+    "name": "FACING BRICKS (CHAMPERED )",
+    "productid": "GCTW02",
+    "size": "9X3 INCH",
+    "per_100": "533 NOS",
+    "weight": "440 GM",
+    "thickness": "10 MM",
+    "color": "Natural Red",
+    "src": "./assets/img/CLADDING_BRICKSWALL_BRICKS/GCTW02.jpg",
+    "retail_price": "ret",
+    "wholesale_price": "whol",
+    "details": []
+  },
+  {
+    "id": 3,
+    "name": "FACING BRICKS(EDGED)",
+    "productid": "GCTW03",
+    "size": "9X3 INCH",
+    "per_100": "533 NOS",
+    "weight": "440 GM",
+    "thickness": "18 MM",
+    "color": "Natural Red",
+    "src": "./assets/img/CLADDING_BRICKSWALL_BRICKS/GCTW03.jpg",
+    "retail_price": "ret",
+    "wholesale_price": "whol",
+    "details": []
+  }
+]

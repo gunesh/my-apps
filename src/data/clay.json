@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "JAALIS",
+    "url": "/jaalis",
+    "src": "./assets/img/clay/mini_trailor.png",
+    "details": []
+  },
+  {
+    "id": 2,
+    "name": "DECORATIVE TILES",
+    "url": "/decorative-tiles",
+    "src": "./assets/img/clay/roofing_tiles.png",
+    "details": []
+  },
+  {
+    "id": 3,
+    "name": "CLADDING BRICKS/WALL BRICKS",
+    "url": "/cladding-wall-bricks",
+    "src": "./assets/img/clay/adr.png",
+    "details": []
+  },
+  {
+    "id": 4,
+    "name": "BRICKS",
+    "src": "./assets/img/clay/bamboo_sartaj.png",
+    "url": "/bricks",
+    "details": []
+  },
+  {
+    "id": 5,
+    "name": "ROOFING TILES",
+    "src": "./assets/img/clay/dsp.png",
+    "url": "/roofing-tiles",
+    "details": []
+  },
+  {
+    "id": 7,
+    "name": "Hollow Block",
+    "src": "./assets/img/clay/mini_white_house.png",
+    "url": "/hollow-block",
+    "details": []
+  }
+  ]

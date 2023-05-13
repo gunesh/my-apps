@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "SOLID BRICK",
+    "productid": "GCTB01",
+    "size": "9X4X2.5 INCH",
+    "per_100": "640 NOS",
+    "weight": "2.5 KG",
+    "thickness": "60 MM",
+    "color": "Natural Red",
+    "src": "./assets/img/BRICKS/GCTB01.jpg",
+    "retail_price": "ret",
+    "wholesale_price": "whol",
+    "details": []
+  },
+  {
+    "id": 2,
+    "name": "SOLID EDGE BRICK",
+    "productid": "GCTB02",
+    "size": "9X4X3 INCH",
+    "per_100": "640 NOS",
+    "weight": "2.5 KG",
+    "thickness": "60 MM",
+    "color": "Natural Red",
+    "src": "./assets/img/BRICKS/GCTB02.jpg",
+    "retail_price": "ret",
+    "wholesale_price": "whol",
+    "details": []
+  },
+  {
+    "id": 3,
+    "name": "THREE HOLE BRICK",
+    "productid": "GCTB03",
+    "size": "9X3X4 INCH",
+    "per_100": "530 NOS",
+    "weight": "2.5 KG",
+    "thickness": "100 MM",
+    "color": "Natural Red",
+    "src": "./assets/img/BRICKS/GCTB03.jpg",
+    "retail_price": "ret",
+    "wholesale_price": "whol",
+    "details": []
+  },
+  {
+    "id": 4,
+    "name": "JAALI BRICK",
+    "productid": "GCTB04",
+    "size": "9X4X3 INCH",
+    "per_100": "530 NOS",
+    "weight": "2.1 KG",
+    "thickness": "75 MM",
+    "color": "Natural Red",
+    "src": "./assets/img/BRICKS/GCTB04.jpg",
+    "retail_price": "ret",
+    "wholesale_price": "whol",
+    "details": []
+  },
+  {
+    "id": 5,
+    "name": "TEN HOLE BRICK",
+    "productid": "GCTB05",
+    "size": "9X4X3 INCH",
+    "per_100": "530 NOS",
+    "weight": "2.5 KG",
+    "thickness": "75 MM",
+    "color": "Natural Red",
+    "src": "./assets/img/BRICKS/GCTB05.jpg",
+    "retail_price": "ret",
+    "wholesale_price": "whol",
+    "details": []
+  }
+]
